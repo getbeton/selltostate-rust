@@ -1,0 +1,11 @@
+[package]
+name = "selltostate"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Sell to State API client. Not published to crates.io."
+license = "MIT"
+
+[[bin]]
+name = "selltostate-client"
+path = "src/main.rs"
